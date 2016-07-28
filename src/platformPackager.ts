@@ -221,7 +221,7 @@ export abstract class PlatformPackager<DC extends PlatformSpecificBuildOptions> 
         }
       }
 
-      const resourcesPath = this.platform === Platform.MAC ? path.join(appOutDir, "Electron.app", "Contents", "Resources") : path.join(appOutDir, "resources")
+      const resourcesPath = this.platform === Platform.MAC ? path.join(appOutDir, "Brave.app", "Contents", "Resources") : path.join(appOutDir, "resources")
       const filter = createFilter(this.info.appDir, filePatterns, ignoreFiles, rawFilter, excludePatterns)
       const promise = asarOptions == null ?
         copyFiltered(this.info.appDir, path.join(resourcesPath, "app"), filter, this.platform === Platform.WINDOWS)

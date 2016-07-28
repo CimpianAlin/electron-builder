@@ -29,7 +29,7 @@ export async function createApp(opts: ElectronPackagerOptions, appOutDir: string
   const appInfo = opts.appInfo
   const appFilename = appInfo.productFilename
 
-  const contentsPath = path.join(appOutDir, "Electron.app", "Contents")
+  const contentsPath = path.join(appOutDir, "Brave.app", "Contents")
   const frameworksPath = path.join(contentsPath, "Frameworks")
 
   const appPlistFilename = path.join(contentsPath, "Info.plist")
