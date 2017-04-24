@@ -41,11 +41,6 @@
     "OS X",
     "Mac"
   ],
-  "bin": {
-    "electron-builder": "cli.js",
-    "install-app-deps": "./out/install-app-deps.js",
-    "build": "./out/build-cli.js"
-  },
   "author": "Stefan Judis",
   "license": "MIT",
   "bugs": "https://github.com/loopline-systems/electron-builder/issues",
